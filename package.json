@@ -1,0 +1,34 @@
+{
+  "name": "react-simple-store",
+  "version": "1.0.0",
+  "description": "An implementation of customHook to create a global state management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RZulfikri/react-simple-store.git"
+  },
+  "keywords": [
+    "react",
+    "customHook",
+    "state",
+    "management",
+    "react-native",
+    "store"
+  ],
+  "peerDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.4.5"
+  },
+  "author": "Rahmat Zulfikri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RZulfikri/react-simple-store/issues"
+  },
+  "homepage": "https://github.com/RZulfikri/react-simple-store#readme"
+}
