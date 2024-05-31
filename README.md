@@ -87,6 +87,7 @@ const Container = () => {
 // App Component
 const App = () => {
   const onClick = useCallback(() => {
+    // A direct access/manipulation to a store function
     customStore.get().getData();
   }, []);
 
