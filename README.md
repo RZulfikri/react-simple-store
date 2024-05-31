@@ -15,6 +15,7 @@ Optimized rendering to prevent unnecessary re-renders.
 So in this implementation, I want to create a customHook or state management that able to do.
 1. can share value across component
 2. can optimize the rendering process.
+3. `PLUS` can be used with/without `React` using direct manipulation (direct access to store value & function).
 
 ## How to Install
 
