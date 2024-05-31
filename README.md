@@ -101,7 +101,7 @@ export default App;
 ### Optimization
 #### Direct Access
 
-Direct Access provides access to the store using set and gets, without `React`/`Hook`. You can get/set value and call functions from the store anywhere in your project.
+Direct Access provides access to the store using set and get, without `React`/`Hook`. You can get/set value and call functions from the store anywhere in your project.
 
 ```javascript
 const user = customStore.get().user;
