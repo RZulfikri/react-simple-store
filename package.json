@@ -1,5 +1,5 @@
 {
-  "name": "react-simple-store",
+  "name": "@RZulfikri/react-simple-store",
   "version": "1.0.0",
   "description": "An implementation of customHook to create a global state management.",
   "main": "index.js",
