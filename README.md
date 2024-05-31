@@ -1,18 +1,20 @@
 # react-simple-store
 
-React Simple Store is a lightweight and easy-to-use implementation of global state management for React applications, utilizing custom hooks. It offers a simple and efficient solution for sharing state across components while optimizing rendering processes.
+react-simple-store is a lightweight and easy-to-use implementation of global state management for React/React-Native applications, utilizing custom hooks. It offers a simple and efficient solution for sharing state across components while optimizing rendering processes.
 
 ## Motivation
-In exploring custom hooks in React, I encountered two common approaches: one utilizing `useState()` and another using `useContext()`. However, both have limitations. The former struggles to share values across components, while the latter can lead to excessive rendering with numerous contexts.
+In exploring custom hooks in React, I encountered two common approaches: 
+1. custom hooks using `useState()`. The limitation of this custom is that it is hard to share value/state across components.
+2. custom hooks using `useContext()`.This custom hook can solve the limitation of `useState()` However too many contexts can lead to excessive rendering.
 
 With React Simple Store, I aimed to create a custom hook-based state management solution that addresses these limitations, allowing for:
 
 Seamless sharing of values across components.
 Optimized rendering to prevent unnecessary re-renders.
 
-So in this implementation I want to create a customHook or state management that able to do.
+So in this implementation, I want to create a customHook or state management that able to do.
 1. can share value across component
-2. can optimize rendering process.
+2. can optimize the rendering process.
 
 ## How to Install
 
