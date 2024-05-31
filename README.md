@@ -7,15 +7,9 @@ In exploring custom hooks in React, I encountered two common approaches:
 1. custom hooks using `useState()`. The limitation of this custom is that it is hard to share value/state across components.
 2. custom hooks using `useContext()`.This custom hook can solve the limitation of `useState()` However too many contexts can lead to excessive rendering.
 
-With React Simple Store, I aimed to create a custom hook-based state management solution that addresses these limitations, allowing for:
-
-Seamless sharing of values across components.
-Optimized rendering to prevent unnecessary re-renders.
-
-So in this implementation, I want to create a customHook or state management that able to do.
-1. can share value across component
-2. can optimize the rendering process.
-3. `PLUS` can be used with/without `React` using direct manipulation (direct access to store value & function).
+With `react-simple-store`, I aimed to create a custom hook-based state management solution that addresses these limitations, allowing for:
+1. Seamless sharing of values across components.
+2. Optimized rendering to prevent unnecessary re-renders using `selector` & `direct access`
 
 ## How to Install
 
@@ -105,9 +99,9 @@ const App = () => {
 export default App;
 ```
 ### Optimization
-#### Direct Manipulation
+#### Direct Access
 
-Direct manipulation provides access to the store using set and get:
+Direct Access provides access to the store using set and gets, without `React`/`Hook`. You can get/set value and call functions from the store anywhere in your project.
 
 ```javascript
 const user = customStore.get().user;
